@@ -36,7 +36,7 @@ pipeline {
         // Build the application with your required package manager.  The below example is for maven: ###
         stage('Install dependencies') {
             steps {
-                dir('helloWorld') {
+                dir('Your_File_Name') {
                     sh 'mvn install -DskipTests'
                 }
             }
