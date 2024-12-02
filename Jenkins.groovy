@@ -27,8 +27,8 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/andy-yk-lin/jenkins-private.git', 
-                        credentialsId: 'Jenkins-CLI' // 這裡填入你的憑證 ID
+                        url: 'Your_GitHub_Url', 
+                        credentialsId: 'Your_Credential_ID' // 這裡填入你的憑證 ID
                     ]]
                 ]
             }
